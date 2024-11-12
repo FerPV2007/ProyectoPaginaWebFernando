@@ -12,13 +12,17 @@ height: 650px;
 background-repeat: no-repeat;
 background-size: 100%;
 background-position-y: 80%;}
-.CajaColumnas 
-{
+.CajaColumnas
+{   
     display: flex;
     justify-content: space-around;
     align-items: center;
     gap: 10px;
+    width: 100%;
 }
+.CajaColumnas img
+{width: 100%;
+height: 300px;}
 .Columna 
 {
     flex: 1;
@@ -52,3 +56,15 @@ li a
 {text-decoration: none;}
 .MenuSuperior li:last-child
 {border-right: none;} 
+.Formulario
+{width: 80%;
+margin: auto;}
+form
+{padding: 15px;}
+input
+{width: 100%;
+padding: 5px;
+border-radius: 5px;}
+textarea
+{width: 100%;
+height: 100px;}
