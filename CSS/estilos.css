@@ -41,7 +41,9 @@ height: 300px;}
 .MenuSuperior li
 {display: inline; 
  padding: 5px;
- border-right: solid 2px black;}
+ }
+.bordederecho li
+{border-right: solid 2px black;}
 .MenuSuperior
 {text-transform: uppercase;
 font-weight: bold;
